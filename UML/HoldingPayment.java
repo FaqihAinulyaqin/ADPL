@@ -16,7 +16,7 @@ public class HoldingPayment {
         return IDPembeli;
     }
 
-    public void setIDPembeli(String buyerID) {
+    public void setIDPembeli(String IDPembeli) {
         this.IDPembeli = IDPembeli;
     }
 
@@ -24,7 +24,7 @@ public class HoldingPayment {
         return IDPenjual;
     }
 
-    public void setIDPenjual(String sellerID) {
+    public void setIDPenjual(String IDPenjual) {
         this.IDPenjual = IDPenjual;
     }
 
@@ -32,7 +32,7 @@ public class HoldingPayment {
         return PaymentID;
     }
 
-    public void setPaymentID(String paymentID) {
+    public void setPaymentID(String PaymentID) {
         this.PaymentID = PaymentID;
     }
 
@@ -40,7 +40,7 @@ public class HoldingPayment {
         return TotalPayment;
     }
 
-    public void setTotalPayment(int totalPayment) {
+    public void setTotalPayment(int TotalPayment) {
         this.TotalPayment = TotalPayment;
     }
 }
