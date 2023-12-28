@@ -12,35 +12,35 @@ public class HoldingOrder {
 
     // Getter and Setter methods
 
-    public String getBuyerID() {
-        return buyerID;
+    public String getIDPembeli() {
+        return IDPembeli;
     }
 
-    public void setBuyerID(String buyerID) {
-        this.buyerID = buyerID;
+    public void setIDPembeli(String IDPembeli) {
+        this.IDPembeli = IDPembeli;
     }
 
-    public String getSellerID() {
-        return sellerID;
+    public String getIDPenjual() {
+        return IDPenjual;
     }
 
-    public void setSellerID(String sellerID) {
-        this.sellerID = sellerID;
+    public void setIDPenjual(String IDPenjual) {
+        this.IDPenjual = IDPenjual;
     }
 
     public String getOrderID() {
-        return orderID;
+        return OrderID;
     }
 
-    public void setOrderID(String orderID) {
-        this.orderID = orderID;
+    public void setOrderID(String OrderID) {
+        this.orderID = OrderID;
     }
 
     public int getOrderDate() {
-        return orderDate;
+        return OrderDate;
     }
 
-    public void setOrderDate(int orderDate) {
-        this.orderDate = orderDate;
+    public void setOrderDate(int OrderDate) {
+        this.OrderDate = OrderDate;
     }
 }
