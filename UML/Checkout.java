@@ -14,8 +14,7 @@ public class Checkout {
     private String deliveryStatus;
 
     // Constructors
-    public Checkout(int id, int sellerID, int customerID, int productID, float totalAmount, Date orderDate,
-                    String address, Date deliveryDate, String deliveryStatus) {
+    public Checkout(int id, int sellerID, int customerID, int productID, float totalAmount, Date orderDate, String address, Date deliveryDate, String deliveryStatus) {
         this.id = id;
         this.sellerID = sellerID;
         this.customerID = customerID;
