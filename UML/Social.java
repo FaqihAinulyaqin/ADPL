@@ -36,4 +36,12 @@ public class Social {
     public void setIdPenerima(int idPenerima) {
         this.idPenerima = idPenerima;
     }
+
+    public String getKontenPesan() {
+        return kontenPesan;
+    }
+
+    public String getPenerima() {
+        return penerima;
+    }
 }
