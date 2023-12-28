@@ -1,3 +1,5 @@
+package UML;
+
 public class Payment {
     // Attributes
     private String id;

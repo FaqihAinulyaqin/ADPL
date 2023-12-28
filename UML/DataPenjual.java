@@ -1,3 +1,5 @@
+package UML;
+
 public class DataPenjual {
     // Attributes
     private String usernamePenjual;

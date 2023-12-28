@@ -1,3 +1,5 @@
+package UML;
+
 public class DataPembeli {
     // Attributes
     private String usernamePembeli;

@@ -1,3 +1,5 @@
+package UML;
+
 public class DataPayment {
     // Attributes
     private String id;

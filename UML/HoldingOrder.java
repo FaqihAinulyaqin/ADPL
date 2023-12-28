@@ -33,7 +33,7 @@ public class HoldingOrder {
     }
 
     public void setOrderID(String OrderID) {
-        this.orderID = OrderID;
+        this.OrderID = OrderID;
     }
 
     public int getOrderDate() {
